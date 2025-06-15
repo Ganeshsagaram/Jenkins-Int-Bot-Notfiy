@@ -1,0 +1,56 @@
+{
+  "_class": "hudson.model.FreeStyleBuild",
+  "actions": [
+    {
+      "_class": "hudson.model.CauseAction",
+      "causes": [
+        {
+          "_class": "hudson.model.Cause$UserIdCause",
+          "shortDescription": "Started by user ganesh",
+          "userId": "ganesh",
+          "userName": "ganesh"
+        }
+      ]
+    },
+    {
+      "_class": "jenkins.metrics.impl.TimeInQueueAction",
+      "blockedDurationMillis": 0,
+      "blockedTimeMillis": 0,
+      "buildableDurationMillis": 6,
+      "buildableTimeMillis": 6,
+      "buildingDurationMillis": 24,
+      "executingTimeMillis": 24,
+      "executorUtilization": 1,
+      "subTaskCount": 0,
+      "waitingDurationMillis": 5,
+      "waitingTimeMillis": 5
+    },
+    {},
+    {
+      "_class": "org.jenkinsci.plugins.displayurlapi.actions.RunDisplayAction"
+    }
+  ],
+  "artifacts": [],
+  "building": false,
+  "description": null,
+  "displayName": "#4",
+  "duration": 24,
+  "estimatedDuration": 183,
+  "executor": null,
+  "fullDisplayName": "Hello-world #4",
+  "id": "4",
+  "inProgress": false,
+  "keepLog": false,
+  "number": 4,
+  "queueId": 4,
+  "result": "SUCCESS",
+  "timestamp": 1749023161336,
+  "url": "http://127.0.0.1:8080/job/Hello-world/4/",
+  "builtOn": "",
+  "changeSet": {
+    "_class": "hudson.scm.EmptyChangeLogSet",
+    "items": [],
+    "kind": null
+  },
+  "culprits": []
+}

@@ -1,0 +1,69 @@
+{
+  "project": {
+    "actions": [
+      ""
+    ],
+    "description": [
+      ""
+    ],
+    "keepDependencies": [
+      "false"
+    ],
+    "properties": [
+      ""
+    ],
+    "scm": [
+      {
+        "$": {
+          "class": "hudson.scm.NullSCM"
+        }
+      }
+    ],
+    "canRoam": [
+      "true"
+    ],
+    "disabled": [
+      "false"
+    ],
+    "blockBuildWhenDownstreamBuilding": [
+      "false"
+    ],
+    "blockBuildWhenUpstreamBuilding": [
+      "false"
+    ],
+    "triggers": [
+      {
+        "hudson.triggers.TimerTrigger": [
+          {
+            "spec": [
+              "30 11 * * *"
+            ]
+          }
+        ]
+      }
+    ],
+    "concurrentBuild": [
+      "false"
+    ],
+    "builders": [
+      {
+        "hudson.tasks.Shell": [
+          {
+            "command": [
+              "#!/bin/bash\necho \"Hello, Jenkins! This is a Hello-World test build.\"\necho $pwd"
+            ],
+            "configuredLocalRules": [
+              ""
+            ]
+          }
+        ]
+      }
+    ],
+    "publishers": [
+      ""
+    ],
+    "buildWrappers": [
+      ""
+    ]
+  }
+}

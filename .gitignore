@@ -1,0 +1,9 @@
+config.py
+.env
+_pycache_
+*.log
+my_rooms.json
+room_details.json
+Mind-Map-Jenkins-to-a-bot.drawio
+node_modules
+secrets
