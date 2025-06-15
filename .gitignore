@@ -1,9 +1,9 @@
 config.py
 .env
-__pycache__
 *.log
 my_rooms.json
 room_details.json
 Mind-Map-Jenkins-to-a-bot.drawio
 node_modules
 secrets
+__pycache__
