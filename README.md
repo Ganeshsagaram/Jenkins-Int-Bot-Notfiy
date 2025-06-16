@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository is built to **learn Jenkins automation** and **send job status notifications** to a **Webex group**. These updates can be triggered using **Webex bot commands**.
+This repository is built to **learn Jenkins automation** and **send job status notifications** to a **Webex group**. These updates can be triggered using **Webex bot commands**. Especially for Jenkins-Freestyle Project.
 
 ---
 
@@ -135,3 +135,18 @@ jenkins-form
 This will trigger a Jenkins form. From there, you can query the bot and automate Jenkins tasks efficiently.
 
 ---
+
+### Optional: Real-Time Notifications
+
+If you want to receive real-time updates whenever your Jenkins job runs, you can set up a notification script.
+
+For **Windows users**, include the batch file named `notify_webex.bat`.  
+For users on other platforms (e.g., Linux or macOS), create a platform-specific equivalent such as `.sh` or `.zsh`. Add neccessary **token and room details** by hardcode in that file.
+
+Place the batch file in your Jenkins job directory:
+
+This setup assumes you are using a **Jenkins Freestyle Project**.
+
+Make sure to configure your Jenkins job to execute the script as part of the **post-build actions**.
+
+
