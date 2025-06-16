@@ -7,3 +7,5 @@ Mind-Map-Jenkins-to-a-bot.drawio
 node_modules
 secrets
 __pycache__
+*.xml
+*.html
